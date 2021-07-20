@@ -7,7 +7,7 @@ const Thumbnail = forwardRef(({ result }, ref) => {
 
 	return (
 		<div
-            ref={ref}
+			ref={ref}
 			className="p-2 group cursor-pointer transition duration-200 ease-in
             transform sm:hover:scale-105 hover:z-50"
 		>
@@ -41,5 +41,7 @@ const Thumbnail = forwardRef(({ result }, ref) => {
 		</div>
 	);
 });
+
+Thumbnail.displayName = "Thumbnail";
 
 export default Thumbnail;
