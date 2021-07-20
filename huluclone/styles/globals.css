@@ -1,0 +1,15 @@
+/* the 'base' consists of the base classes within our app */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities"; */
+
+@layer base {
+	body {
+		/* just before the compiler runs generate the utility classes for this color*/
+		@apply bg-[#06202A] text-gray-300;
+	}
+}
